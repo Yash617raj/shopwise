@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image { 
+    margin: 30px 0;
+}
+.image > img{
+    height: 150px;
+    width: 433px;
+}
+.form{
+    background-color: gray;
+    width: 400px;
+    padding: 10px 15px;
+    border: 1.5px solid lightgray;
+    margin-top: -40px;
+}
+.input1 > p {
+    font-size: 15px;
+    font-weight: bold;
+}
+.input1 > input {
+    width: 100%;
+    margin-top: -10px;
+    height: 25px;
+    border-radius: 5px;
+}
+.signin {
+    font-size: 17px;
+    background-color: yellow;
+    width: 100%;
+    margin-top: 20px;
+    height: 35px;
+}
+.tnc {
+    font-size: 15px;
+    font-weight: bold;
+}
+.login1 {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
